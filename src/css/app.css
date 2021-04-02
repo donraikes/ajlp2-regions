@@ -5,3 +5,28 @@
     Description:
         This is where any of your application specific styles should be included
 */
+.whiteborder {
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+.header {
+	background-color:#4e4137;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.footer {
+	background-color:#245d63;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.main {
+	background-color:#5fb9b5;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}

@@ -54,7 +54,7 @@
          ** and the CSS documentation under Support/API Docs/Non-Component Styling
          ** on the JET website for more information on how to use this pattern.
       -->
-    <header role="banner" class="oj-web-applayout-header">
+    <header role="banner" class="oj-web-applayout-header header">
       <div class="oj-web-applayout-max-width oj-flex-bar oj-sm-align-items-center">
         <div class="oj-flex-bar-middle oj-sm-align-items-baseline">
           <span role="img" class="oj-icon demo-oracle-icon" title="Oracle Logo" alt="Oracle Logo"></span>
@@ -82,11 +82,11 @@
         </div>
       </div>
     </header>
-    <div role="main" class="oj-web-applayout-max-width oj-web-applayout-content">
+    <div role="main" class="oj-web-applayout-max-width oj-web-applayout-content main">
 	<p>This is the main content area of the page.  It will contain all the details that are unique to this page unlike the banner and footer regions which contain common content accross all pages of
 	the application.</p>
     </div>
-    <footer class="oj-web-applayout-footer" role="contentinfo" name="Page Footer">
+    <footer class="oj-web-applayout-footer footer" role="contentinfo" name="Page Footer">
       <div class="oj-web-applayout-footer-item oj-web-applayout-max-width">
         <ul>
           <oj-bind-for-each data="[[footerLinks]]">
